@@ -1,0 +1,16 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def startswith_capital_counter(names):
+
+        for name in names:
+            # ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7322#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sun, 21 Aug 2022 11:35:33 UTC
+record: -1

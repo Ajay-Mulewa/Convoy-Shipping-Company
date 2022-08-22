@@ -1,0 +1,10 @@
+<h2>Child elements</h2>
+<html><body><p>Look at the following XML document.</p>
+<pre style="background-color: #ffffff; color: #080808; font-size: 9.8pt;">&lt;<span style="color: #0033b3;">user</span>&gt;
+    &lt;<span style="color: #0033b3;">login</span>&gt;admin123&lt;/<span style="color: #0033b3;">login</span>&gt;
+    &lt;<span style="color: #0033b3;">password</span>&gt;qwerty&lt;/<span style="color: #0033b3;">password</span>&gt;
+    &lt;<span style="color: #0033b3;">email</span>&gt;myemail@example.com&lt;/<span style="color: #0033b3;">email</span>&gt;
+&lt;/<span style="color: #0033b3;">user</span>&gt;</pre>
+<p>The <code class="language-python">root</code> variable is an instance of the <code class="language-python">Element</code> class representing this XML element.</p>
+<p>What is the result of the following line of code?</p>
+<pre><code class="language-python">print(root[1].text)</code></pre></body></html>
